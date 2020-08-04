@@ -1,35 +1,37 @@
-/* eslint-disable react/prop-types */
 import React from "react";
 import {
-  View,
   Text,
+  View,
+  Image,
   SafeAreaView,
   TouchableWithoutFeedback,
-  TouchableOpacity,
   Keyboard,
-  BackHandler,
-  Image,
+  ScrollView,
 } from "react-native";
-import { Colors, Images } from "App/Theme";
+import { StretchyScrollView } from "react-native-stretchy";
 import styles from "./SigninEmailStyles";
-import { connect } from "react-redux";
-import SigninActions from "../../Stores/Signin/Actions";
+import { Colors, Images } from "App/Theme";
 
-import ButtonCurve from "../../Components/shared/ButtonCurve";
-import SigninHeader from "../../Components/Signin/SigninHeaders";
+import BackChevron from "../../Components/shared/BackChevron";
 
-const EmailSigninScreen = ({ navigation, ...props }) => {
-  const [email, setEmail] = React.useState("");
+function SigninEmailScreen(props) {
+  const { navigation } = props;
 
   return (
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
-      <View style={styles.container}></View>
+      <>
+        <SafeAreaView style={{ backgroundColor: Colors.black }} />
+        <View style={styles.container}>
+          <View style={styles.backWrap}>
+            <BackChevron goBack={() => navigation.goBack()} />
+          </View>
+          <View style={styles.screenInner}>
+            <Text>jshfks</Text>
+          </View>
+        </View>
+      </>
     </TouchableWithoutFeedback>
   );
-};
+}
 
-const mapDispatchToProps = (dispatch) => ({
-  saveEmail: (userEmail) => dispatch(SigninActions.submitUserEmail(userEmail)),
-});
-
-export default connect(null, mapDispatchToProps)(EmailSigninScreen);
+export default SigninEmailScreen;

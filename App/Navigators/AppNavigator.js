@@ -3,19 +3,17 @@
 /* eslint-disable react/display-name */
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
-
 // Registrations
 import SplashScreen from "App/Containers/Splash/SplashScreen";
 import SigninMainScreen from "App/Containers/Signin/SigninScreen";
-import SigninEmailScreen from "App/Containers/SigninEmail/SigninEmailScreen";
+import SigninEmailScreen from "../Containers/SigninEmail/SigninEmailScreen";
 
 const MainStack = createStackNavigator(
   {
     SplashScreen: SplashScreen,
-    MainScreen: {
-      screen: SigninMainScreen,
-    },
-    EmailSignin: SigninEmailScreen,
+    MainScreen: SigninEmailScreen,
+
+    // EmailSignin: SigninEmailScreen,
   },
   {
     initialRouteName: "SplashScreen",
