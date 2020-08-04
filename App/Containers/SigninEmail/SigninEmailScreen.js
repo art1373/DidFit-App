@@ -33,43 +33,41 @@ function SigninEmailScreen(props) {
   return (
     <>
       <SafeAreaView style={{ backgroundColor: Colors.black }} />
-      <KeyboardAwareScrollView>
-        <View style={styles.container}>
-          <View style={styles.backWrap}>
-            <BackChevron goBack={() => navigation.goBack()} />
-          </View>
-          <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
-            <View style={styles.screenInner}>
-              <View style={styles.heading}>
-                <Text style={styles.headingText}>Welcome back</Text>
-                <Text style={styles.description}>Login to your account</Text>
-              </View>
-              <View style={styles.formWrapper}>
-                <Form
-                  initialValues={{ email: "", password: "" }}
-                  validationSchema={validationSchema}
-                  onSubmit={(values) => console.log(values)}
-                >
-                  <FormField name="email" placeholder="Email" />
-                  <FormField isSecure name="password" placeholder="Password" />
-                  <SubmitButton title="Login" color={Colors.lightBlue} />
-                </Form>
-              </View>
-              <TouchableOpacity activeOpacity={0.4}>
-                <Text style={styles.forgotPassword}>Forgot your password?</Text>
-              </TouchableOpacity>
-              <TouchableOpacity activeOpacity={0.4}>
-                <View style={styles.footerTextWrap}>
-                  <Text style={styles.footerFirstLine}>
-                    Don't have an account?
-                  </Text>
-                  <Text style={styles.footerSecondLine}>Sign up</Text>
-                </View>
-              </TouchableOpacity>
-            </View>
-          </TouchableWithoutFeedback>
+      <View style={styles.container}>
+        <View style={styles.backWrap}>
+          <BackChevron goBack={() => navigation.goBack()} />
         </View>
-      </KeyboardAwareScrollView>
+        <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
+          <View style={styles.screenInner}>
+            <View style={styles.heading}>
+              <Text style={styles.headingText}>Welcome back</Text>
+              <Text style={styles.description}>Login to your account</Text>
+            </View>
+            <View style={styles.formWrapper}>
+              <Form
+                initialValues={{ email: "", password: "" }}
+                validationSchema={validationSchema}
+                onSubmit={(values) => console.log(values)}
+              >
+                <FormField name="email" placeholder="Email" />
+                <FormField isSecure name="password" placeholder="Password" />
+                <SubmitButton title="Login" color={Colors.lightBlue} />
+              </Form>
+            </View>
+            <TouchableOpacity activeOpacity={0.4}>
+              <Text style={styles.forgotPassword}>Forgot your password?</Text>
+            </TouchableOpacity>
+            <TouchableOpacity activeOpacity={0.4}>
+              <View style={styles.footerTextWrap}>
+                <Text style={styles.footerFirstLine}>
+                  Don't have an account?
+                </Text>
+                <Text style={styles.footerSecondLine}>Sign up</Text>
+              </View>
+            </TouchableOpacity>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
     </>
   );
 }
