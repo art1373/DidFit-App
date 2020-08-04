@@ -12,7 +12,6 @@ import { Colors } from "App/Theme";
 import * as yup from "yup";
 
 import BackChevron from "../../Components/shared/BackChevron";
-import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
 import { Form, FormField, SubmitButton } from "../../Components/shared/Forms";
 
 function SigninEmailScreen(props) {

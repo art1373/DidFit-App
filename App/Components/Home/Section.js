@@ -29,12 +29,11 @@ const styles = StyleSheet.create({
   bodyText: {
     ...Fonts.input,
     color: Colors.normalGray,
-    // paddingTop: 5,
     textAlign: "left",
   },
   imgWrap: {
     ...Helpers.rowCenter,
-    justifyContent: "space-around",
+    justifyContent: "space-between",
     flexWrap: "wrap",
   },
   img: {

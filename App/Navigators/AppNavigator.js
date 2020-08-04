@@ -7,13 +7,14 @@ import { createBottomTabNavigator } from "react-navigation-tabs";
 // Registrations
 import SplashScreen from "App/Containers/Splash/SplashScreen";
 import SigninMainScreen from "App/Containers/Signin/SigninScreen";
-import SigninEmailScreen from "../Containers/SigninEmail/SigninEmailScreen";
-import HomeScreen from "../Containers/Home/HomeScreen";
+import SigninEmailScreen from "App/Containers/SigninEmail/SigninEmailScreen";
+import HomeScreen from "App/Containers/Home/HomeScreen";
 
 const MainStack = createStackNavigator(
   {
     SplashScreen: SplashScreen,
-    MainScreen: SigninEmailScreen,
+    MainScreen: SigninMainScreen,
+    EmailSignin: SigninEmailScreen,
     HomeScreen: HomeScreen,
   },
   {
@@ -31,7 +32,7 @@ const BottomTab = createBottomTabNavigator(
   }
 );
 const AppNavigator = createSwitchNavigator({
-  // Main: MainStack,
+  Main: MainStack,
   BottomNav: BottomTab,
 });
 

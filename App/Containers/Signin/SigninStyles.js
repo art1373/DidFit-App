@@ -1,15 +1,9 @@
 import { StyleSheet, Dimensions } from "react-native";
-import { Fonts, Helpers, Colors } from "App/Theme";
-import { isIos, smallHeightDevice } from "App/Theme/Metrics";
-import {
-  widthPercentageToDP as wp,
-  heightPercentageToDP as hp,
-} from "react-native-responsive-screen";
+import { Helpers, Colors } from "App/Theme";
 
 const styles = StyleSheet.create({
   container: {
     ...Helpers.fill,
-    backgroundColor: Colors.black,
   },
   btnWrap: {
     alignItems: "center",
