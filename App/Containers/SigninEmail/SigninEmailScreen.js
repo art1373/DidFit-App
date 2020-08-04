@@ -13,8 +13,16 @@ import * as yup from "yup";
 
 import BackChevron from "../../Components/shared/BackChevron";
 import { Form, FormField, SubmitButton } from "../../Components/shared/Forms";
+import { SliderBox } from "react-native-image-slider-box";
 
 function SigninEmailScreen(props) {
+  const obj = {
+    images: [
+      "https://source.unsplash.com/1024x768/?nature",
+      "https://source.unsplash.com/1024x768/?water",
+      "https://source.unsplash.com/1024x768/?girl",
+    ],
+  };
   const { navigation } = props;
   const validationSchema = yup.object().shape({
     email: yup
@@ -31,11 +39,19 @@ function SigninEmailScreen(props) {
 
   return (
     <>
-      <SafeAreaView style={{ backgroundColor: Colors.black }} />
+      <SafeAreaView style={{ backgroundColor: "rgba(0, 0, 0, 0.137709)" }} />
       <View style={styles.container}>
+        <View style={styles.sliderWrap}>
+          <SliderBox
+            dotColor={Colors.white}
+            inactiveDotColor={"gray"}
+            images={obj.images}
+          />
+        </View>
         <View style={styles.backWrap}>
           <BackChevron goBack={() => navigation.goBack()} />
         </View>
+
         <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
           <View style={styles.screenInner}>
             <View style={styles.heading}>

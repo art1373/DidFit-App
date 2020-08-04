@@ -52,7 +52,11 @@ const SigninScreen = (props) => {
             title="Sign In with google"
           />
           <ButtonOAuth color={Colors.grass} title="Sign Up with Email" />
-          <ButtonOAuth color={Colors.lightBlue} title="Log In" />
+          <ButtonOAuth
+            color={Colors.lightBlue}
+            title="Log In"
+            onPress={() => navigation.navigate("EmailSignin")}
+          />
         </Animatable.View>
         <Animatable.View animation="fadeIn" duration={6500}>
           <Text style={styles.footerDescription}>Explore the classess</Text>

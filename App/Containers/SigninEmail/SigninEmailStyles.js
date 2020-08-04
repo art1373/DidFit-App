@@ -25,16 +25,18 @@ export default StyleSheet.create({
   container: {
     ...Helpers.fill,
     justifyContent: "center",
-    borderWidth: 2,
     backgroundColor: "rgba(0, 0, 0, 0.137709)",
   },
   backWrap: {
     position: "absolute",
-    top: -10,
+    top: -40,
     left: -40,
     zIndex: 2,
   },
-
+  sliderWrap: {
+    position: "absolute",
+    top: 60,
+  },
   screenInner: {
     borderTopRightRadius: 20,
     borderTopLeftRadius: 20,
