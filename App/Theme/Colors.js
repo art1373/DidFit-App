@@ -8,8 +8,13 @@
 export default {
   transparent: "rgba(0,0,0,0)",
   black: "#000000",
+  elegantBlack: "#0A1F44",
   white: "#ffffff",
   blueOcean: "#0088FF",
   lightBlue: "#6C9DFE",
   grass: "#5BC58B",
+  lightGray: "rgba(0, 0, 0, 0.4)",
+  mediumGray: "#B8BBC6",
+  lightWhite: "rgba(142, 142, 147, 0.12)",
+  error: "#B00020",
 };

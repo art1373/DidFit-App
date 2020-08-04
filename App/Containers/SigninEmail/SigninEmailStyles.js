@@ -26,7 +26,7 @@ export default StyleSheet.create({
     ...Helpers.fill,
     justifyContent: "center",
     borderWidth: 2,
-    backgroundColor: "gray",
+    backgroundColor: "rgba(0, 0, 0, 0.137709)",
   },
   backWrap: {
     position: "absolute",
@@ -38,9 +38,12 @@ export default StyleSheet.create({
   screenInner: {
     borderTopRightRadius: 20,
     borderTopLeftRadius: 20,
+    position: "absolute",
+    zIndex: 2,
+    width: "100%",
     backgroundColor: Colors.white,
     height: "100%",
-    marginBottom: "-150%",
+    bottom: -290,
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -48,17 +51,44 @@ export default StyleSheet.create({
     },
     shadowOpacity: 0.58,
     shadowRadius: 16.0,
-
     elevation: 24,
   },
-  Screen__Wrapper: {
-    flex: 1,
-    justifyContent: "flex-start",
-    alignItems: "baseline",
+  heading: {
+    ...Helpers.colCenter,
+    alignSelf: "center",
+    marginTop: 20,
   },
-
-  Slider__Wrapper: {
-    flex: 1,
-    backgroundColor: Colors.black,
+  headingText: {
+    ...Fonts.h2,
+    color: Colors.elegantBlack,
+  },
+  description: {
+    ...Fonts.input,
+    color: Colors.lightGray,
+    marginTop: 10,
+  },
+  formWrapper: {
+    alignItems: "center",
+    marginTop: 20,
+  },
+  forgotPassword: {
+    ...Fonts.input,
+    alignSelf: "center",
+    marginTop: 60,
+  },
+  footerTextWrap: {
+    ...Helpers.rowCenter,
+    alignItems: "center",
+    alignSelf: "center",
+    marginTop: 70,
+  },
+  footerFirstLine: {
+    ...Fonts.input,
+    color: Colors.mediumGray,
+  },
+  footerSecondLine: {
+    ...Fonts.input,
+    color: Colors.grass,
+    paddingHorizontal: 5,
   },
 });
