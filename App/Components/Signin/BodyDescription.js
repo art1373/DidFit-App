@@ -3,30 +3,28 @@ import { View, Text, StyleSheet } from "react-native";
 import { Colors, Fonts } from "App/Theme";
 import PropTypes from "prop-types";
 
-const SigninHeaders = ({ desc1, desc2, desc3, desc4 }) => {
+const BodyDescription = ({ line1, line2, line3 }) => {
   return (
     <View style={styles.textWraps}>
-      <Text style={styles.heading}>{desc1}</Text>
-      <Text style={styles.heading}>{desc2}</Text>
-      <Text style={styles.heading}>{desc3}</Text>
-      <Text style={styles.heading}>{desc4}</Text>
+      <Text style={styles.heading}>{line1}</Text>
+      <Text style={styles.heading}>{line2}</Text>
+      <Text style={styles.heading}>{line3}</Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   heading: {
-    ...Fonts.h1,
+    ...Fonts.input,
+    fontWeight: "500",
     color: Colors.white,
-    fontWeight: "800",
-    textTransform: "uppercase",
   },
   textWraps: {
-    padding: 40,
+    paddingHorizontal: 40,
   },
 });
 
-SigninHeaders.propTypes = {
+BodyDescription.propTypes = {
   desc1: PropTypes.string.isRequired,
   desc2: PropTypes.string.isRequired,
   desc3: PropTypes.string.isRequired,
@@ -34,4 +32,4 @@ SigninHeaders.propTypes = {
   otherText: PropTypes.string,
 };
 
-export default SigninHeaders;
+export default BodyDescription;

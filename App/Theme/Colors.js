@@ -9,5 +9,7 @@ export default {
   transparent: "rgba(0,0,0,0)",
   black: "#000000",
   white: "#ffffff",
-  blue: "#54e7d4",
+  blueOcean: "#0088FF",
+  lightBlue: "#6C9DFE",
+  grass: "#5BC58B",
 };
