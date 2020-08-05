@@ -1,9 +1,13 @@
 import React from "react";
-import { View, Text, StyleSheet, TouchableOpacity, Image } from "react-native";
+import {
+  View,
+  Text,
+  StyleSheet,
+  TouchableOpacity,
+  ActivityIndicator,
+} from "react-native";
 import { PropTypes } from "prop-types";
-import { Helpers, Fonts, Colors, Images } from "App/Theme";
-import { useDimensions } from "@react-native-community/hooks";
-import { heightPercentageToDP as hp } from "react-native-responsive-screen";
+import { Helpers, Fonts, Colors } from "App/Theme";
 import Icon from "react-native-vector-icons/AntDesign";
 
 const renderIcon = (mode) => {
@@ -17,15 +21,22 @@ const renderIcon = (mode) => {
   }
 };
 
-function ButtonOauth({ title, onPress, disabled, mode, color }) {
-  const { width } = useDimensions().window;
+function ButtonOauth({ title, onPress, disabled, mode, color, loading }) {
   return (
     <TouchableOpacity onPress={onPress} disabled={disabled} activeOpacity={0.6}>
       <View style={[styles.container, { backgroundColor: color }]}>
-        {mode && renderIcon(mode)}
-        <Text style={[styles.text, { paddingHorizontal: mode ? 10 : null }]}>
-          {title}
-        </Text>
+        {loading ? (
+          <ActivityIndicator size={20} color={Colors.error} />
+        ) : (
+          <>
+            {mode && renderIcon(mode)}
+            <Text
+              style={[styles.text, { paddingHorizontal: mode ? 10 : null }]}
+            >
+              {title}
+            </Text>
+          </>
+        )}
       </View>
     </TouchableOpacity>
   );

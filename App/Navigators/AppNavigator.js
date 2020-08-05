@@ -15,25 +15,12 @@ const MainStack = createStackNavigator(
     SplashScreen: SplashScreen,
     MainScreen: SigninMainScreen,
     EmailSignin: SigninEmailScreen,
-    HomeScreen: HomeScreen,
+    Home: HomeScreen,
   },
   {
     initialRouteName: "SplashScreen",
     headerMode: "none",
   }
 );
-const BottomTab = createBottomTabNavigator(
-  {
-    Home: HomeScreen,
-  },
-  {
-    initialRouteName: "Home",
-    headerMode: "none",
-  }
-);
-const AppNavigator = createSwitchNavigator({
-  Main: MainStack,
-  BottomNav: BottomTab,
-});
 
-export default createAppContainer(AppNavigator);
+export default createAppContainer(MainStack);
