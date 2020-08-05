@@ -7,13 +7,58 @@ import styles from "./SigninStyles";
 import LinearGradient from "react-native-linear-gradient";
 
 import * as Animatable from "react-native-animatable";
+import Toast from "react-native-toast-message";
 import ButtonOAuth from "../../Components/Signin/ButtonOauths";
 import SigninHeaders from "../../Components/Signin/SigninHeaders";
 import BodyDescription from "../../Components/Signin/BodyDescription";
+import {
+  GoogleSignin,
+  statusCodes,
+} from "@react-native-community/google-signin";
 
-const SigninScreen = (props) => {
-  const { navigation } = props;
-
+const SigninScreen = ({ navigation }) => {
+  const signIn = async () => {
+    try {
+      await GoogleSignin.hasPlayServices();
+      const userInfo = await GoogleSignin.signIn();
+      console.log("done", userInfo);
+      Toast.show({
+        type: "success",
+        position: "bottom",
+        text1: "Successfull",
+        text2: "Welcome back to Vation 🏃🏼‍♂️🏃🏻",
+      });
+      navigation.navigate("Home");
+    } catch (error) {
+      if (error.code === statusCodes.SIGN_IN_CANCELLED) {
+        console.log("SIGN_IN_CANCELLED", error);
+        Toast.show({
+          type: "info",
+          position: "bottom",
+          text1: "Authentication Failed",
+          text2: "Signin Cancelled",
+        });
+      } else if (error.code === statusCodes.IN_PROGRESS) {
+        console.log("IN_PROGRESS", error);
+      } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
+        console.log("PLAY_SERVICES_NOT_AVAILABLE", error);
+        Toast.show({
+          type: "error",
+          position: "bottom",
+          text1: "Authentication Failed",
+          text2: "Play services is not available!",
+        });
+      } else {
+        console.log("Exception", error);
+        Toast.show({
+          type: "error",
+          position: "bottom",
+          text1: "Authentication Failed",
+          text2: "Something went wrong!",
+        });
+      }
+    }
+  };
   return (
     <LinearGradient
       colors={["rgba(1,1,0,0.90)", "rgba(0,0,0,0.94)", "rgba(0,0,0,0.94)"]}
@@ -50,6 +95,7 @@ const SigninScreen = (props) => {
             color={Colors.blueOcean}
             mode="google"
             title="Sign In with google"
+            onPress={signIn}
           />
           <ButtonOAuth color={Colors.grass} title="Sign Up with Email" />
           <ButtonOAuth
