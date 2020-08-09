@@ -26,7 +26,7 @@ const SigninScreen = ({ navigation }) => {
         type: "success",
         position: "bottom",
         text1: "Successfull",
-        text2: "Welcome back to Vation 🏃🏼‍♂️🏃🏻",
+        text2: "Welcome back to DidFit 🏃🏼‍♂️🏃🏻",
       });
       navigation.navigate("Home");
     } catch (error) {

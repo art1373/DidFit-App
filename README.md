@@ -1,16 +1,10 @@
-## Vation App
+## DidFit App
 
-Emphsized on clean code, component based project and seperations of concers using
-Contianer-Component pattern.
+Emphasized on clean code, component-based project, and separations of concerns using Container-Component pattern.
 
 ## Dependencies
 
 `Formik && Yup` for our forms and validation
-`rn-image-slider-box` althoug I could implement this myself due to the my time and deadline I mainly used packages like these
-`react-navigation` I used version 4 due to the fact that It was compelete and less bug
-`reduxsauce` simple and redux ulity tool
-
-## issues
-
-- seems like `firebase` auth has an issue where its not catching errors if the user exists so I could not work it out as it was proably the library issue
-- Could not adjust the slider due to my busy tasks at my remote job sorry bout that 🙋🏻‍♂️
+`rn-image-slider-box` although I could implement this myself due to my time and the deadline I mainly used packages like these
+`react-navigation` I used version 4 because It was complete with less bugs.
+`reduxsauce` simple and redux utility tool

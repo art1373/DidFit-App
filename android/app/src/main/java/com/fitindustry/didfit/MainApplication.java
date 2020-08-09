@@ -1,4 +1,4 @@
-package com.vation.vation;
+package com.fitindustry.didfit;
 
 import android.app.Application;
 import android.content.Context;

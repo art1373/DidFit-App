@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* VationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VationTests.m */; };
+		00E356F31AD99517003FC87E /* didfitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* didfitTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		180E8F10109AAC0F6C4AE8A5 /* libPods-Vation-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C2C6D1905A57358D15545F /* libPods-Vation-tvOS.a */; };
-		298566B4182437FDC9416AAA /* libPods-Vation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD0398590D8F93705C82ABE /* libPods-Vation.a */; };
+		180E8F10109AAC0F6C4AE8A5 /* libPods-didfit-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C2C6D1905A57358D15545F /* libPods-didfit-tvOS.a */; };
+		298566B4182437FDC9416AAA /* libPods-didfit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD0398590D8F93705C82ABE /* libPods-didfit.a */; };
 		29D0484924DA54AB0022019D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29D0484824DA54AB0022019D /* GoogleService-Info.plist */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
-		2DCD954D1E0B4F2C00145EB5 /* VationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VationTests.m */; };
-		4DAB87E83FB0F8E413EA3C28 /* libPods-Vation-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 262FB68990FABB4B74A57DD9 /* libPods-Vation-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* didfitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* didfitTests.m */; };
+		4DAB87E83FB0F8E413EA3C28 /* libPods-didfit-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 262FB68990FABB4B74A57DD9 /* libPods-didfit-tvOSTests.a */; };
 		63C37E8B2AC542F6BC4A8877 /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB604BAD56CE40729982F1CB /* libRNGestureHandler-tvOS.a */; };
-		9B5170A1E2968F671F086D1D /* libPods-VationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5329D520C5178EF1D2E66068 /* libPods-VationTests.a */; };
+		9B5170A1E2968F671F086D1D /* libPods-didfitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5329D520C5178EF1D2E66068 /* libPods-didfitTests.a */; };
 		BEDAA4C29F2A455594DDC00A /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECFD547ABDD40A8941F8AC8 /* libRNGestureHandler.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
@@ -34,49 +34,49 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Vation;
+			remoteInfo = didfit;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Vation-tvOS";
+			remoteInfo = "didfit-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0048B5962F042D541D140586 /* Pods-Vation-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vation-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Vation-tvOSTests/Pods-Vation-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		0048B5962F042D541D140586 /* Pods-didfit-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-didfit-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-didfit-tvOSTests/Pods-didfit-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* VationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* didfitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = didfitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* VationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VationTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Vation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Vation/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Vation/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* didfitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = didfitTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* didfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = didfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = didfit/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = didfit/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Vation/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Vation/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Vation/main.m; sourceTree = "<group>"; };
-		262FB68990FABB4B74A57DD9 /* libPods-Vation-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vation-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = didfit/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = didfit/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = didfit/main.m; sourceTree = "<group>"; };
+		262FB68990FABB4B74A57DD9 /* libPods-didfit-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-didfit-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D0484824DA54AB0022019D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* Vation-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vation-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Vation-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vation-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* didfit-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "didfit-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* didfit-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "didfit-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		34E316EC11926A316EADC97C /* Pods-Vation-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vation-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Vation-tvOS/Pods-Vation-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		392317E8F372604E55971F70 /* Pods-VationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VationTests.release.xcconfig"; path = "Target Support Files/Pods-VationTests/Pods-VationTests.release.xcconfig"; sourceTree = "<group>"; };
-		46C2C6D1905A57358D15545F /* libPods-Vation-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vation-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5329D520C5178EF1D2E66068 /* libPods-VationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C3EFA04EABA7989E628AC64 /* Pods-Vation-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vation-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Vation-tvOSTests/Pods-Vation-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		75E936EB1A3002F6A9AB4156 /* Pods-Vation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vation.release.xcconfig"; path = "Target Support Files/Pods-Vation/Pods-Vation.release.xcconfig"; sourceTree = "<group>"; };
-		764AD50AC6F939E0A1C08B00 /* Pods-VationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VationTests.debug.xcconfig"; path = "Target Support Files/Pods-VationTests/Pods-VationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34E316EC11926A316EADC97C /* Pods-didfit-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-didfit-tvOS.release.xcconfig"; path = "Target Support Files/Pods-didfit-tvOS/Pods-didfit-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		392317E8F372604E55971F70 /* Pods-didfitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-didfitTests.release.xcconfig"; path = "Target Support Files/Pods-didfitTests/Pods-didfitTests.release.xcconfig"; sourceTree = "<group>"; };
+		46C2C6D1905A57358D15545F /* libPods-didfit-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-didfit-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5329D520C5178EF1D2E66068 /* libPods-didfitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-didfitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3EFA04EABA7989E628AC64 /* Pods-didfit-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-didfit-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-didfit-tvOSTests/Pods-didfit-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75E936EB1A3002F6A9AB4156 /* Pods-didfit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-didfit.release.xcconfig"; path = "Target Support Files/Pods-didfit/Pods-didfit.release.xcconfig"; sourceTree = "<group>"; };
+		764AD50AC6F939E0A1C08B00 /* Pods-didfitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-didfitTests.debug.xcconfig"; path = "Target Support Files/Pods-didfitTests/Pods-didfitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7ECFD547ABDD40A8941F8AC8 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
-		B47D75E5D1913E2479AB2B8D /* Pods-Vation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vation.debug.xcconfig"; path = "Target Support Files/Pods-Vation/Pods-Vation.debug.xcconfig"; sourceTree = "<group>"; };
+		B47D75E5D1913E2479AB2B8D /* Pods-didfit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-didfit.debug.xcconfig"; path = "Target Support Files/Pods-didfit/Pods-didfit.debug.xcconfig"; sourceTree = "<group>"; };
 		EB604BAD56CE40729982F1CB /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EDD0398590D8F93705C82ABE /* libPods-Vation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB800E05AFB04A97491C501A /* Pods-Vation-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vation-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Vation-tvOS/Pods-Vation-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EDD0398590D8F93705C82ABE /* libPods-didfit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-didfit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB800E05AFB04A97491C501A /* Pods-didfit-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-didfit-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-didfit-tvOS/Pods-didfit-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B5170A1E2968F671F086D1D /* libPods-VationTests.a in Frameworks */,
+				9B5170A1E2968F671F086D1D /* libPods-didfitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			files = (
 				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				BEDAA4C29F2A455594DDC00A /* libRNGestureHandler.a in Frameworks */,
-				298566B4182437FDC9416AAA /* libPods-Vation.a in Frameworks */,
+				298566B4182437FDC9416AAA /* libPods-didfit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +105,7 @@
 				ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */,
 				63C37E8B2AC542F6BC4A8877 /* libRNGestureHandler-tvOS.a in Frameworks */,
-				180E8F10109AAC0F6C4AE8A5 /* libPods-Vation-tvOS.a in Frameworks */,
+				180E8F10109AAC0F6C4AE8A5 /* libPods-didfit-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,20 +113,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DAB87E83FB0F8E413EA3C28 /* libPods-Vation-tvOSTests.a in Frameworks */,
+				4DAB87E83FB0F8E413EA3C28 /* libPods-didfit-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* VationTests */ = {
+		00E356EF1AD99517003FC87E /* didfitTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* VationTests.m */,
+				00E356F21AD99517003FC87E /* didfitTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = VationTests;
+			path = didfitTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -146,7 +146,7 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Vation */ = {
+		13B07FAE1A68108700A75B9A /* didfit */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -157,7 +157,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Vation;
+			name = didfit;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -166,10 +166,10 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				EDD0398590D8F93705C82ABE /* libPods-Vation.a */,
-				46C2C6D1905A57358D15545F /* libPods-Vation-tvOS.a */,
-				262FB68990FABB4B74A57DD9 /* libPods-Vation-tvOSTests.a */,
-				5329D520C5178EF1D2E66068 /* libPods-VationTests.a */,
+				EDD0398590D8F93705C82ABE /* libPods-didfit.a */,
+				46C2C6D1905A57358D15545F /* libPods-didfit-tvOS.a */,
+				262FB68990FABB4B74A57DD9 /* libPods-didfit-tvOSTests.a */,
+				5329D520C5178EF1D2E66068 /* libPods-didfitTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,14 +177,14 @@
 		6B80F6007C5408FEF5BD69DE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B47D75E5D1913E2479AB2B8D /* Pods-Vation.debug.xcconfig */,
-				75E936EB1A3002F6A9AB4156 /* Pods-Vation.release.xcconfig */,
-				FB800E05AFB04A97491C501A /* Pods-Vation-tvOS.debug.xcconfig */,
-				34E316EC11926A316EADC97C /* Pods-Vation-tvOS.release.xcconfig */,
-				5C3EFA04EABA7989E628AC64 /* Pods-Vation-tvOSTests.debug.xcconfig */,
-				0048B5962F042D541D140586 /* Pods-Vation-tvOSTests.release.xcconfig */,
-				764AD50AC6F939E0A1C08B00 /* Pods-VationTests.debug.xcconfig */,
-				392317E8F372604E55971F70 /* Pods-VationTests.release.xcconfig */,
+				B47D75E5D1913E2479AB2B8D /* Pods-didfit.debug.xcconfig */,
+				75E936EB1A3002F6A9AB4156 /* Pods-didfit.release.xcconfig */,
+				FB800E05AFB04A97491C501A /* Pods-didfit-tvOS.debug.xcconfig */,
+				34E316EC11926A316EADC97C /* Pods-didfit-tvOS.release.xcconfig */,
+				5C3EFA04EABA7989E628AC64 /* Pods-didfit-tvOSTests.debug.xcconfig */,
+				0048B5962F042D541D140586 /* Pods-didfit-tvOSTests.release.xcconfig */,
+				764AD50AC6F939E0A1C08B00 /* Pods-didfitTests.debug.xcconfig */,
+				392317E8F372604E55971F70 /* Pods-didfitTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -200,9 +200,9 @@
 			isa = PBXGroup;
 			children = (
 				29D0484824DA54AB0022019D /* GoogleService-Info.plist */,
-				13B07FAE1A68108700A75B9A /* Vation */,
+				13B07FAE1A68108700A75B9A /* didfit */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* VationTests */,
+				00E356EF1AD99517003FC87E /* didfitTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				0476B6D92256026C006BDB17 /* Recovered References */,
@@ -216,10 +216,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Vation.app */,
-				00E356EE1AD99517003FC87E /* VationTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Vation-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Vation-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* didfit.app */,
+				00E356EE1AD99517003FC87E /* didfitTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* didfit-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* didfit-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,9 +227,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* VationTests */ = {
+		00E356ED1AD99517003FC87E /* didfitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VationTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "didfitTests" */;
 			buildPhases = (
 				9484506995FC29A4EE3D00D6 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -241,14 +241,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = VationTests;
-			productName = VationTests;
-			productReference = 00E356EE1AD99517003FC87E /* VationTests.xctest */;
+			name = didfitTests;
+			productName = didfitTests;
+			productReference = 00E356EE1AD99517003FC87E /* didfitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Vation */ = {
+		13B07F861A680F5B00A75B9A /* didfit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Vation" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "didfit" */;
 			buildPhases = (
 				1876371A241F99EEA27D744C /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -262,14 +262,14 @@
 			);
 			dependencies = (
 			);
-			name = Vation;
+			name = didfit;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* Vation.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* didfit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Vation-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* didfit-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Vation-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "didfit-tvOS" */;
 			buildPhases = (
 				E7187EBD4D89301711758D0B /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
@@ -281,14 +281,14 @@
 			);
 			dependencies = (
 			);
-			name = "Vation-tvOS";
-			productName = "Vation-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Vation-tvOS.app */;
+			name = "didfit-tvOS";
+			productName = "didfit-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* didfit-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* Vation-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* didfit-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Vation-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "didfit-tvOSTests" */;
 			buildPhases = (
 				1486E41A1E3086C92FA56BC5 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -300,9 +300,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "Vation-tvOSTests";
-			productName = "Vation-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Vation-tvOSTests.xctest */;
+			name = "didfit-tvOSTests";
+			productName = "didfit-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* didfit-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -329,7 +329,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Vation" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "didfit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -343,10 +343,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Vation */,
-				00E356ED1AD99517003FC87E /* VationTests */,
-				2D02E47A1E0B4A5D006451C7 /* Vation-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Vation-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* didfit */,
+				00E356ED1AD99517003FC87E /* didfitTests */,
+				2D02E47A1E0B4A5D006451C7 /* didfit-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* didfit-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -416,7 +416,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Vation-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-didfit-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -438,7 +438,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Vation-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-didfit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -484,7 +484,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VationTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-didfitTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -497,7 +497,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Vation/Pods-Vation-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-didfit/Pods-didfit-resources.sh",
 				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
@@ -538,7 +538,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Vation/Pods-Vation-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-didfit/Pods-didfit-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E7187EBD4D89301711758D0B /* [CP] Check Pods Manifest.lock */ = {
@@ -556,7 +556,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Vation-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-didfit-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -570,7 +570,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* VationTests.m in Sources */,
+				00E356F31AD99517003FC87E /* didfitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,7 +596,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* VationTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* didfitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,12 +605,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Vation */;
+			target = 13B07F861A680F5B00A75B9A /* didfit */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Vation-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* didfit-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -622,7 +622,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = Vation;
+			path = didfit;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -630,7 +630,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 764AD50AC6F939E0A1C08B00 /* Pods-VationTests.debug.xcconfig */;
+			baseConfigurationReference = 764AD50AC6F939E0A1C08B00 /* Pods-didfitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -641,7 +641,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = VationTests/Info.plist;
+				INFOPLIST_FILE = didfitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -655,13 +655,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vation.app/Vation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/didfit.app/didfit";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 392317E8F372604E55971F70 /* Pods-VationTests.release.xcconfig */;
+			baseConfigurationReference = 392317E8F372604E55971F70 /* Pods-didfitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -669,7 +669,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = VationTests/Info.plist;
+				INFOPLIST_FILE = didfitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -683,13 +683,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vation.app/Vation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/didfit.app/didfit";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B47D75E5D1913E2479AB2B8D /* Pods-Vation.debug.xcconfig */;
+			baseConfigurationReference = B47D75E5D1913E2479AB2B8D /* Pods-didfit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -698,7 +698,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = Vation/Info.plist;
+				INFOPLIST_FILE = didfit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 0.010;
 				OTHER_LDFLAGS = (
@@ -707,14 +707,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Vation;
+				PRODUCT_NAME = didfit;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75E936EB1A3002F6A9AB4156 /* Pods-Vation.release.xcconfig */;
+			baseConfigurationReference = 75E936EB1A3002F6A9AB4156 /* Pods-didfit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -722,7 +722,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = Vation/Info.plist;
+				INFOPLIST_FILE = didfit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 0.010;
 				OTHER_LDFLAGS = (
@@ -731,14 +731,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Vation;
+				PRODUCT_NAME = didfit;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB800E05AFB04A97491C501A /* Pods-Vation-tvOS.debug.xcconfig */;
+			baseConfigurationReference = FB800E05AFB04A97491C501A /* Pods-didfit-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -753,7 +753,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = "Vation-tvOS/Info.plist";
+				INFOPLIST_FILE = "didfit-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -764,7 +764,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Vation-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.didfit-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -774,7 +774,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34E316EC11926A316EADC97C /* Pods-Vation-tvOS.release.xcconfig */;
+			baseConfigurationReference = 34E316EC11926A316EADC97C /* Pods-didfit-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -789,7 +789,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = "Vation-tvOS/Info.plist";
+				INFOPLIST_FILE = "didfit-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -800,7 +800,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Vation-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.didfit-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -810,7 +810,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C3EFA04EABA7989E628AC64 /* Pods-Vation-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 5C3EFA04EABA7989E628AC64 /* Pods-didfit-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -824,7 +824,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = "Vation-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "didfit-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -835,17 +835,17 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Vation-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.didfit-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vation-tvOS.app/Vation-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/didfit-tvOS.app/didfit-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0048B5962F042D541D140586 /* Pods-Vation-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 0048B5962F042D541D140586 /* Pods-didfit-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -859,7 +859,7 @@
 					"$(inherited)",
 					"$(SRCROOT)..\node_modules\neact-native-gesture-handlerios/**",
 				);
-				INFOPLIST_FILE = "Vation-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "didfit-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -870,10 +870,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Vation-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.didfit-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vation-tvOS.app/Vation-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/didfit-tvOS.app/didfit-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -980,7 +980,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VationTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "didfitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -989,7 +989,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Vation" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "didfit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -998,7 +998,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Vation-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "didfit-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1007,7 +1007,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Vation-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "didfit-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1016,7 +1016,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Vation" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "didfit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

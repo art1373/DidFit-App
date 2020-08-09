@@ -16,6 +16,7 @@ export default class App extends Component {
       webClientId: GoogleConfig.clientId,
       offlineAccess: true,
     });
+    console.disableYellowBox = true;
   }
   render() {
     return (

@@ -73,7 +73,7 @@ function SigninEmailScreen(props) {
       Toast.show({
         type: "success",
         text1: "Successfull",
-        text2: "Welcome to Vation 🏃🏼‍♂️🏃🏻",
+        text2: "Welcome to DidFit 🏃🏼‍♂️🏃🏻",
       });
       navigation.navigate("Home");
     } catch (error) {
